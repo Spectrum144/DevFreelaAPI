@@ -8,13 +8,6 @@ O DevFreelaAPI é um projeto que permite clientes criarem e gerenciarem projetos
 
 ---
 
-## 📸 Demonstração
-
-Inclua uma imagem ou gif do projeto:
-
-![Demo](link-da-imagem-ou-gif)
-
----
 
 ## 🧰 Tecnologias utilizadas
 
