@@ -1,10 +1,19 @@
 ﻿using DevFreela.API.Controllers;
 using DevFreela.API.Enums;
+using DevFreela.API.Persistence;
+using Microsoft.EntityFrameworkCore;
 
 namespace DevFreela.API.Entities {
     public class Project : BaseEntity {
 
-        protected Project() {}
+        //adicionando variavel do contexto no DbContext
+        private readonly DevFreelaDbContext _context;
+
+        protected Project(DevFreelaDbContext context) {
+            _context = context;        
+        }
+
+
         public Project(string title, string description, int idClient, int idFreelancer, decimal totalCost) : base() {
             Title = title;
             Description = description;

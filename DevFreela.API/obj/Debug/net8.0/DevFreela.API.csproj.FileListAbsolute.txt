@@ -198,3 +198,7 @@ C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\r
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\DevFreela.API.pdb
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\DevFreela.API.genruntimeconfig.cache
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\ref\DevFreela.API.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
