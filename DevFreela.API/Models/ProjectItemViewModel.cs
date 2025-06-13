@@ -2,10 +2,10 @@
 
 namespace DevFreela.API.Models {
     public class ProjectItemViewModel {
-        public ProjectItemViewModel(int id, string title, string description, string clientName, string freelancerName, decimal totalCost) {
+        public ProjectItemViewModel(int id, string title, string clientName, string freelancerName, decimal totalCost) {
             Id = id;
             Title = title;
-            Description = description;          
+            //Description = description;     string description, no parametro      
             ClientName = clientName;
             FreelancerName = freelancerName;
             TotalCost = totalCost;
@@ -17,6 +17,12 @@ namespace DevFreela.API.Models {
         public string ClientName { get; private set; }
         public string FreelancerName { get; private set; }
         public decimal TotalCost { get; private set; }
-        
+
+        public static ProjectItemViewModel FromEntity(Project project)
+            => new(project.Id, 
+                project.Title, 
+                project.Client.FullName, 
+                project.Freelancer.FullName, 
+                project.TotalCost);
     }
 }
