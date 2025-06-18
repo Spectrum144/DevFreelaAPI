@@ -58,8 +58,7 @@
               "RelativeToolTip": "DevFreela.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-18T00:54:17.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T00:54:17.631Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "DevFreela.API\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T00:53:26.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T00:53:26.799Z"
             },
             {
               "$type": "Document",
@@ -84,8 +82,7 @@
               "RelativeToolTip": "DevFreela.API\\ExceptionHandlers\\ApiExceptionHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T00:53:10.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-18T00:53:10.693Z"
             },
             {
               "$type": "Document",
@@ -109,8 +106,7 @@
               "RelativeToolTip": "DevFreela.API\\Controllers\\UserController.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAIwDAAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T01:11:40.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-13T01:11:40.39Z"
             },
             {
               "$type": "Document",
@@ -132,7 +128,7 @@
               "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\ProjectsController.cs",
               "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.API\\Controllers\\ProjectsController.cs",
               "RelativeToolTip": "DevFreela.API\\Controllers\\ProjectsController.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAAJYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwB0AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-13T00:55:58.032Z",
               "EditorCaption": ""
