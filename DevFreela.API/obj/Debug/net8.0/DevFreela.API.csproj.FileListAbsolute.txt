@@ -201,10 +201,10 @@ C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\r
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\rjimswa.dswa.cache.json
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
-C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\DevFreela.Application.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\DevFreela.Core.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructure.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\DevFreela.Application.pdb
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\DevFreela.Core.pdb
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructure.pdb
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
