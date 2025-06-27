@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AD7D7FD-5D03-406C-AA72-A026B1178579}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.infrastructure\\persistence\\migrations\\20250626015427_primeiramigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AD7D7FD-5D03-406C-AA72-A026B1178579}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|solutionrelative:devfreela.infrastructure\\persistence\\migrations\\20250626015427_primeiramigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8B664862-A42F-4AE4-86AF-40EE2CCB1C51}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.application\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B664862-A42F-4AE4-86AF-40EE2CCB1C51}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\applicationmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250626015427_PrimeiraMigration.cs",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Infrastructure\\Persistence\\Migrations\\20250626015427_PrimeiraMigration.cs",
-              "RelativeDocumentMoniker": "DevFreela.Infrastructure\\Persistence\\Migrations\\20250626015427_PrimeiraMigration.cs",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Infrastructure\\Persistence\\Migrations\\20250626015427_PrimeiraMigration.cs",
-              "RelativeToolTip": "DevFreela.Infrastructure\\Persistence\\Migrations\\20250626015427_PrimeiraMigration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Title": "ApplicationModule.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Application\\ApplicationModule.cs",
+              "RelativeDocumentMoniker": "DevFreela.Application\\ApplicationModule.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Application\\ApplicationModule.cs",
+              "RelativeToolTip": "DevFreela.Application\\ApplicationModule.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T01:54:49.321Z",
+              "WhenOpened": "2025-06-27T01:29:25.61Z",
               "EditorCaption": ""
             }
           ]
