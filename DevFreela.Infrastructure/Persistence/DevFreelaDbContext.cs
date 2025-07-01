@@ -37,6 +37,13 @@ namespace DevFreela.Infrastructure.Persistence {
                     .WithMany(p => p.Comments)
                     .HasForeignKey(p => p.IdProject)
                     .OnDelete(DeleteBehavior.Restrict);
+
+                //Erro de exceção ocorrido por não configurar o ProjectComment junto ao IdUsuario
+                e.HasOne(p => p.User)
+                    .WithMany(u => u.Comments)
+                    .HasForeignKey(p => p.IdUser)
+                    .OnDelete(DeleteBehavior.Restrict);
+
             });
 
             builder.Entity<User>(e => {

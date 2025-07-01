@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DevFreela.Infrastructure.Persistence.Migrations
 {
     [DbContext(typeof(DevFreelaDbContext))]
-    [Migration("20250626015427_PrimeiraMigration")]
-    partial class PrimeiraMigration
+    [Migration("20250701015859_SegundaMigrationPrimeira")]
+    partial class SegundaMigrationPrimeira
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -98,14 +98,11 @@ namespace DevFreela.Infrastructure.Persistence.Migrations
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
-                    b.Property<int>("UserId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("IdProject");
 
-                    b.HasIndex("UserId");
+                    b.HasIndex("IdUser");
 
                     b.ToTable("ProjectComments");
                 });
@@ -224,8 +221,8 @@ namespace DevFreela.Infrastructure.Persistence.Migrations
 
                     b.HasOne("DevFreela.Core.Entities.User", "User")
                         .WithMany("Comments")
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .HasForeignKey("IdUser")
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Project");

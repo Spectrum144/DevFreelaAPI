@@ -1,5 +1,5 @@
 {
-  "openapi": "3.0.1",
+  "openapi": "3.0.4",
   "info": {
     "title": "DevFreela.API",
     "version": "1.0"
@@ -486,7 +486,7 @@
       "UpdateProjectInputModel": {
         "type": "object",
         "properties": {
-          "id": {
+          "idProject": {
             "type": "integer",
             "format": "int32"
           },
