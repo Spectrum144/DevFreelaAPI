@@ -86,12 +86,17 @@ namespace DevFreela.Application.Services {
         // POST COMMENT ON PROJECT
         public ResultViewModel InsertComment(int id, CreateProjectCommentInputModel model) {
             var project = _context.Projects.SingleOrDefault(p => p.Id == id);
+            var user = _context.Users.SingleOrDefault(u => u.Id == model.IdUser);
 
             if (project == null) {
                 return ResultViewModel<ProjectViewModel>.Error("Projeto não existe.");
             }
 
-            var comment = new ProjectComment(model.Content, model.IdProject, model.IdUser);
+            if(user == null) {
+                return ResultViewModel<ProjectViewModel>.Error("Usuario não existe.");
+            }
+
+            var comment = new ProjectComment(model.Content, model.IdProject, model.IdUser, project, user);
 
             _context.ProjectComments.Add(comment);
             _context.SaveChanges();
