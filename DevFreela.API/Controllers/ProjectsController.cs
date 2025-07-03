@@ -20,10 +20,10 @@ namespace DevFreela.API.Controllers {
         //    _configService = configService;
         //}
 
-        private readonly DevFreelaDbContext _context;
+        //private readonly DevFreelaDbContext _context;
         private readonly IProjectService _service;
-        public ProjectsController(DevFreelaDbContext context, IProjectService service) {
-            _context = context;
+        public ProjectsController(IProjectService service) {
+            //_context = context;
             _service = service; 
         }
 
