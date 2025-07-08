@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace DevFreela.Application.Commands.InsertProject {
-    public class InsertProjectHandler : IRequestHandler<InsertProjectCommand, ResultViewModel<int>{
+    public class InsertProjectHandler : IRequestHandler<InsertProjectCommand, ResultViewModel<int>>{
 
         private readonly DevFreelaDbContext _context;
         public InsertProjectHandler(DevFreelaDbContext context) {

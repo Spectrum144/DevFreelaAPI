@@ -15,11 +15,4 @@
     <ProjectReference Include="..\DevFreela.Infrastructure\DevFreela.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Commands\UpdateProject\" />
-    <Folder Include="Commands\StartProject\" />
-    <Folder Include="Queries\GetAllProjects\" />
-    <Folder Include="Queries\GetProjectById\" />
-  </ItemGroup>
-
 </Project>
