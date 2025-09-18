@@ -1,6 +1,8 @@
 ﻿using DevFreela.Application.Commands.InsertComment;
 using DevFreela.Application.Commands.InsertProject;
+using DevFreela.Application.Models;
 using DevFreela.Application.Services;
+using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -27,8 +29,14 @@ namespace DevFreela.Application {
         }
 
         private static IServiceCollection AddHandlers(this IServiceCollection services) {
+            // Por ser um método que atua somente no Assembly, ele busca somente na camada de Application.
             services.AddMediatR(config =>
                 config.RegisterServicesFromAssemblyContaining<InsertProjectCommand>());
+
+            services.AddTransient<IPipelineBehavior<
+                InsertProjectCommand, 
+                ResultViewModel<int>>, 
+                ValidateInsertProjectCommandBehavior>();
 
             return services;
         }

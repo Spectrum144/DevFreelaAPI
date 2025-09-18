@@ -34,17 +34,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProjectInputModel"
+                "$ref": "#/components/schemas/InsertProjectCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProjectInputModel"
+                "$ref": "#/components/schemas/InsertProjectCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProjectInputModel"
+                "$ref": "#/components/schemas/InsertProjectCommand"
               }
             }
           }
@@ -97,17 +97,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateProjectInputModel"
+                "$ref": "#/components/schemas/UpdateProjectCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateProjectInputModel"
+                "$ref": "#/components/schemas/UpdateProjectCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/UpdateProjectInputModel"
+                "$ref": "#/components/schemas/UpdateProjectCommand"
               }
             }
           }
@@ -206,17 +206,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProjectCommentInputModel"
+                "$ref": "#/components/schemas/InsertCommentCommand"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProjectCommentInputModel"
+                "$ref": "#/components/schemas/InsertCommentCommand"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateProjectCommentInputModel"
+                "$ref": "#/components/schemas/InsertCommentCommand"
               }
             }
           }
@@ -411,50 +411,6 @@
   },
   "components": {
     "schemas": {
-      "CreateProjectCommentInputModel": {
-        "type": "object",
-        "properties": {
-          "content": {
-            "type": "string",
-            "nullable": true
-          },
-          "idProject": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "idUser": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "CreateProjectInputModel": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "idClient": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "idFreelancer": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "totalCost": {
-            "type": "number",
-            "format": "double"
-          }
-        },
-        "additionalProperties": false
-      },
       "CreateSkillInputModel": {
         "type": "object",
         "properties": {
@@ -483,7 +439,51 @@
         },
         "additionalProperties": false
       },
-      "UpdateProjectInputModel": {
+      "InsertCommentCommand": {
+        "type": "object",
+        "properties": {
+          "content": {
+            "type": "string",
+            "nullable": true
+          },
+          "idProject": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idUser": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InsertProjectCommand": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "idClient": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idFreelancer": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "totalCost": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateProjectCommand": {
         "type": "object",
         "properties": {
           "idProject": {
