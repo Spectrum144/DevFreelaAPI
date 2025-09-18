@@ -24,8 +24,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "DevFreela.Application.Models.CreateProjectInputModel",
+        "Name": "command",
+        "Type": "DevFreela.Application.Commands.InsertProject.InsertProjectCommand",
         "IsRequired": true
       }
     ],
@@ -61,8 +61,8 @@
         "IsRequired": true
       },
       {
-        "Name": "model",
-        "Type": "DevFreela.Application.Models.UpdateProjectInputModel",
+        "Name": "command",
+        "Type": "DevFreela.Application.Commands.UpdateProject.UpdateProjectCommand",
         "IsRequired": true
       }
     ],
@@ -98,8 +98,8 @@
         "IsRequired": true
       },
       {
-        "Name": "model",
-        "Type": "DevFreela.Application.Models.CreateProjectCommentInputModel",
+        "Name": "command",
+        "Type": "DevFreela.Application.Commands.InsertComment.InsertCommentCommand",
         "IsRequired": true
       }
     ],
