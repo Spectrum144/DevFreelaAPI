@@ -1,11 +1,11 @@
 ﻿namespace DevFreela.Core.Entities {
     public class ProjectComment : BaseEntity{
-        public ProjectComment(string content, int idProject, int idUser, Project project, User user) : base() {
+        public ProjectComment(string content, int idProject, int idUser) : base() {
             Content = content;
             IdProject = idProject;
             IdUser = idUser;
-            User = user;
-            Project = project;
+            //User = user;
+            //Project = project;
         }
 
         protected ProjectComment() {        

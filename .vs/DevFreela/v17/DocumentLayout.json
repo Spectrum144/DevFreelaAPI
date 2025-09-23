@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8B664862-A42F-4AE4-86AF-40EE2CCB1C51}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.application\\commands\\insertproject\\insertprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B664862-A42F-4AE4-86AF-40EE2CCB1C51}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\commands\\insertproject\\insertprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{582D0BDC-8F7E-4A30-9075-D072326F017B}|DevFreela.UnitTests\\DevFreela.UnitTests.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.unittests\\application\\deleteprojecthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582D0BDC-8F7E-4A30-9075-D072326F017B}|DevFreela.UnitTests\\DevFreela.UnitTests.csproj|solutionrelative:devfreela.unittests\\application\\deleteprojecthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582D0BDC-8F7E-4A30-9075-D072326F017B}|DevFreela.UnitTests\\DevFreela.UnitTests.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.unittests\\application\\insertprojecthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582D0BDC-8F7E-4A30-9075-D072326F017B}|DevFreela.UnitTests\\DevFreela.UnitTests.csproj|solutionrelative:devfreela.unittests\\application\\insertprojecthandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{582D0BDC-8F7E-4A30-9075-D072326F017B}|DevFreela.UnitTests\\DevFreela.UnitTests.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.unittests\\core\\projecttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{582D0BDC-8F7E-4A30-9075-D072326F017B}|DevFreela.UnitTests\\DevFreela.UnitTests.csproj|solutionrelative:devfreela.unittests\\core\\projecttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InsertProjectHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Application\\Commands\\InsertProject\\InsertProjectHandler.cs",
-              "RelativeDocumentMoniker": "DevFreela.Application\\Commands\\InsertProject\\InsertProjectHandler.cs",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Application\\Commands\\InsertProject\\InsertProjectHandler.cs",
-              "RelativeToolTip": "DevFreela.Application\\Commands\\InsertProject\\InsertProjectHandler.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Title": "DeleteProjectHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.UnitTests\\Application\\DeleteProjectHandlerTests.cs",
+              "RelativeDocumentMoniker": "DevFreela.UnitTests\\Application\\DeleteProjectHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.UnitTests\\Application\\DeleteProjectHandlerTests.cs",
+              "RelativeToolTip": "DevFreela.UnitTests\\Application\\DeleteProjectHandlerTests.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T23:43:10.68Z",
+              "WhenOpened": "2025-09-23T00:04:51.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InsertProjectHandlerTests.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.UnitTests\\Application\\InsertProjectHandlerTests.cs",
+              "RelativeDocumentMoniker": "DevFreela.UnitTests\\Application\\InsertProjectHandlerTests.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.UnitTests\\Application\\InsertProjectHandlerTests.cs",
+              "RelativeToolTip": "DevFreela.UnitTests\\Application\\InsertProjectHandlerTests.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T00:04:24.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectTests.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.UnitTests\\Core\\ProjectTests.cs",
+              "RelativeDocumentMoniker": "DevFreela.UnitTests\\Core\\ProjectTests.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.UnitTests\\Core\\ProjectTests.cs",
+              "RelativeToolTip": "DevFreela.UnitTests\\Core\\ProjectTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T19:25:59.001Z",
               "EditorCaption": ""
             }
           ]

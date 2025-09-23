@@ -210,3 +210,6 @@ C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\D
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\MediatR.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

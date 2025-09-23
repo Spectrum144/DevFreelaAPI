@@ -4,16 +4,10 @@ using DevFreela.Application.Commands.InsertComment;
 using DevFreela.Application.Commands.InsertProject;
 using DevFreela.Application.Commands.StartProject;
 using DevFreela.Application.Commands.UpdateProject;
-using DevFreela.Application.Models;
 using DevFreela.Application.Queries.GetAllProjects;
 using DevFreela.Application.Queries.GetProjectById;
-using DevFreela.Application.Services;
-using DevFreela.Core.Entities;
-using DevFreela.Infrastructure.Persistence;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Threading.Tasks;
 
 namespace DevFreela.API.Controllers {
     [ApiController]
@@ -31,11 +25,11 @@ namespace DevFreela.API.Controllers {
         //}
 
         //private readonly DevFreelaDbContext _context;
-        private readonly IProjectService _service;
+        //private readonly IProjectService _service;
         private readonly IMediator _mediator;
-        public ProjectsController(IProjectService service, IMediator mediator) {
+        public ProjectsController(IMediator mediator) {
             //_context = context;
-            _service = service; 
+            //_service = service; 
             _mediator = mediator;
         }
 
@@ -60,11 +54,11 @@ namespace DevFreela.API.Controllers {
         // GET api/projects?search=crm - implementando a camada Application/Services
         [HttpGet]
         public async Task<IActionResult> Get(string search = "") {
-            var result = _service.GetAll();
+            //var result = _service.GetAll();
 
             var query = new GetAllProjectsQuery();
 
-            result = await _mediator.Send(query);
+            var result = await _mediator.Send(query);
             return Ok(result); // _configService.GetValue()
         }
 

@@ -1,30 +1,18 @@
-﻿using DevFreela.Application.Commands.InsertComment;
-using DevFreela.Application.Commands.InsertProject;
+﻿using DevFreela.Application.Commands.InsertProject;
 using DevFreela.Application.Models;
-using DevFreela.Application.Services;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DevFreela.Application {
     public static class ApplicationModule {
         public static IServiceCollection AddApplication(this IServiceCollection services) {
 
-            services.AddServices()
-                    .AddHandlers();
+            services.AddHandlers()
+                    .AddValidation();
 
             
-            return services;
-        }
-
-        private static IServiceCollection AddServices(this IServiceCollection services) {
-            //Injeção de dependência que ficaria no Program:
-            services.AddScoped<IProjectService, ProjectService>();
-
             return services;
         }
 
@@ -34,9 +22,18 @@ namespace DevFreela.Application {
                 config.RegisterServicesFromAssemblyContaining<InsertProjectCommand>());
 
             services.AddTransient<IPipelineBehavior<
-                InsertProjectCommand, 
+                InsertProjectCommand,
                 ResultViewModel<int>>, 
                 ValidateInsertProjectCommandBehavior>();
+
+            return services;
+        }
+
+        private static IServiceCollection AddValidation(this IServiceCollection services) {
+
+            // Apesar de atuar no assembly, não é preciso referenciar todas as classes pois já as localiza.
+            services.AddFluentValidationAutoValidation()
+                    .AddValidatorsFromAssemblyContaining<InsertProjectCommand>();
 
             return services;
         }
