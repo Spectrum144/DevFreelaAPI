@@ -40,6 +40,24 @@ namespace DevFreela.UnitTests.Core {
             Assert.Equal(Project.INVALID_STATE_MESSAGE, exception.Message);
 
         }
-        
+
+        [Fact]
+        public void ProjectIsCompleted_Start_ThrowsException() {
+            // Arrange
+            var project = new Project("Projeto A", "Descrição do Projeto", 1, 2, 10000);
+            project.Start();
+
+            // Act
+            //project.Complete();
+            Action? complete = project.Complete;
+
+            // Assert
+            var exception = Assert.Throws<InvalidOperationException>(complete);
+            Assert.Equal(Project.INVALID_STATE_MESSAGE, exception.Message);
+            //Assert.Equal(project.Status, ProjectStatusEnum.Completed);
+
+
+        }
+
     }
 }
