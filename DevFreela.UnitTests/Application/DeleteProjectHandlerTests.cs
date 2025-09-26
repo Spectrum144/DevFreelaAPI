@@ -1,6 +1,7 @@
 ﻿using DevFreela.Application.Commands.DeleteProject;
 using DevFreela.Core.Entities;
 using DevFreela.Core.Repositories;
+using FluentAssertions;
 using Moq;
 using NSubstitute;
 using System;
@@ -11,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace DevFreela.UnitTests.Application {
     public class DeleteProjectHandlerTests {
+        
         [Fact]
         public async Task ProjectExists_Delete_Success_NSubstitute() {
             // Arrange
@@ -29,6 +31,10 @@ namespace DevFreela.UnitTests.Application {
 
             // Assert
             Assert.True(result.IsSuccess);
+
+            // Assert com Fluent Assertions
+            result.IsSuccess.Should().BeTrue();
+
             await repository.Received(1).GetById(1);
             await repository.Received(1).Update(Arg.Any<Project>());
         }
@@ -48,6 +54,9 @@ namespace DevFreela.UnitTests.Application {
             // Assert 
             Assert.False(result.IsSuccess);
             Assert.Equal("Projeto não existe.", result.Message);
+
+            // Assert com Fluent Assertions
+            result.IsSuccess.Should().BeFalse();
 
             await repository.Received(1).GetById(Arg.Any<int>());
             await repository.DidNotReceive().Update(Arg.Any<Project>());
