@@ -7,6 +7,7 @@ using DevFreela.Application.Commands.UpdateProject;
 using DevFreela.Application.Queries.GetAllProjects;
 using DevFreela.Application.Queries.GetProjectById;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevFreela.API.Controllers {
@@ -53,6 +54,7 @@ namespace DevFreela.API.Controllers {
 
         // GET api/projects?search=crm - implementando a camada Application/Services
         [HttpGet]
+        [Authorize(Roles = "freelancer, client")]
         public async Task<IActionResult> Get(string search = "") {
             //var result = _service.GetAll();
 
@@ -109,6 +111,7 @@ namespace DevFreela.API.Controllers {
         //}
 
         [HttpPost]
+        [Authorize(Roles = "client")]
         public async Task<IActionResult> Post(InsertProjectCommand command) {
 
             var result = await _mediator.Send(command);

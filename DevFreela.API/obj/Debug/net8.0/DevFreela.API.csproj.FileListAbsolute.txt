@@ -207,9 +207,14 @@ C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\D
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\DevFreela.Application.pdb
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\DevFreela.Core.pdb
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\DevFreela.Infrastructure.pdb
-C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\MediatR.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\SendGrid.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\SendGrid.Extensions.DependencyInjection.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\StarkbankEcdsa.dll

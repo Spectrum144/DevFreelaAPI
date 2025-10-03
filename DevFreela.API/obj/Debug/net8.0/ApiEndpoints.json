@@ -236,5 +236,69 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevFreela.API.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DevFreela.Application.Models.LoginInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevFreela.API.Controllers.UserController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/users/password-recovery/change",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DevFreela.Application.Models.ChangePasswordInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevFreela.API.Controllers.UserController",
+    "Method": "RequestPasswordRecovery",
+    "RelativePath": "api/users/password-recovery/request",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DevFreela.Application.Models.PasswordRecoveryRequestInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DevFreela.API.Controllers.UserController",
+    "Method": "ValidateRecoveryCode",
+    "RelativePath": "api/users/password-recovery/validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "DevFreela.Application.Models.ValidateRecoveryCodeInputModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

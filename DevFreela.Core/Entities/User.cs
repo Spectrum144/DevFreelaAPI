@@ -1,10 +1,12 @@
 ﻿namespace DevFreela.Core.Entities {
     public class User : BaseEntity {
-        public User(string fullName, string email, DateTime birthDate) : base() {
+        public User(string fullName, string email, DateTime birthDate, string password, string role) : base() {
             FullName = fullName;
             Email = email;
             BirthDate = birthDate;
             Active = true;
+            Password = password;
+            Role = role;
 
             //Inicializando as listas de relacionamentos
             Skills = [];
@@ -18,11 +20,18 @@
         public DateTime BirthDate { get; private set; }
         public bool Active { get; private set; }
 
+        // Adicionando na entidade User Autenticação e Autorização, que pode ser feita em outra entidade.
+        public string Password { get; private set; }
+        public string Role { get; private set; }
 
         //Colocando relacionamento entre as entidades
         public List<UserSkill> Skills{ get; private set; }
         public List<Project> OwnedProjects { get; private set; }
         public List<Project> FreelanceProjects { get; private set; }
         public List<ProjectComment> Comments { get; private set; }
+
+        public void UpdatePassword(string password) {
+            Password = password;
+        }
     }
 }
