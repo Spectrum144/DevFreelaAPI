@@ -218,3 +218,4 @@ C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\N
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\SendGrid.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\SendGrid.Extensions.DependencyInjection.dll
 C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\bin\Debug\net8.0\StarkbankEcdsa.dll
+C:\Users\Usuário\Documents\GitHub\DevFreelaAPI\DevFreela.API\obj\Debug\net8.0\swae.build.ex.cache

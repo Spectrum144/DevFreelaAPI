@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{246B9C3B-F113-43DF-AAEF-AF031766BCE7}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{246B9C3B-F113-43DF-AAEF-AF031766BCE7}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1AD7D7FD-5D03-406C-AA72-A026B1178579}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.infrastructure\\persistence\\devfreeladbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AD7D7FD-5D03-406C-AA72-A026B1178579}|DevFreela.Infrastructure\\DevFreela.Infrastructure.csproj|solutionrelative:devfreela.infrastructure\\persistence\\devfreeladbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{246B9C3B-F113-43DF-AAEF-AF031766BCE7}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.api\\devfreela.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{246B9C3B-F113-43DF-AAEF-AF031766BCE7}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\devfreela.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+      "AbsoluteMoniker": "D:0:0:{246B9C3B-F113-43DF-AAEF-AF031766BCE7}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{246B9C3B-F113-43DF-AAEF-AF031766BCE7}|DevFreela.API\\DevFreela.API.csproj|solutionrelative:devfreela.api\\controllers\\projectscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B664862-A42F-4AE4-86AF-40EE2CCB1C51}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.application\\commands\\insertproject\\insertprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B664862-A42F-4AE4-86AF-40EE2CCB1C51}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\commands\\insertproject\\insertprojecthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B664862-A42F-4AE4-86AF-40EE2CCB1C51}|DevFreela.Application\\DevFreela.Application.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.application\\commands\\insertproject\\insertprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B664862-A42F-4AE4-86AF-40EE2CCB1C51}|DevFreela.Application\\DevFreela.Application.csproj|solutionrelative:devfreela.application\\commands\\insertproject\\insertprojectcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{246B9C3B-F113-43DF-AAEF-AF031766BCE7}|DevFreela.API\\DevFreela.API.csproj|c:\\users\\usu\u00E1rio\\documents\\github\\devfreelaapi\\devfreela.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,49 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DevFreelaDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Infrastructure\\Persistence\\DevFreelaDbContext.cs",
+              "RelativeDocumentMoniker": "DevFreela.Infrastructure\\Persistence\\DevFreelaDbContext.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Infrastructure\\Persistence\\DevFreelaDbContext.cs",
+              "RelativeToolTip": "DevFreela.Infrastructure\\Persistence\\DevFreelaDbContext.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAuwEcAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-05T23:08:36.875Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.API\\appsettings.json",
-              "RelativeDocumentMoniker": "DevFreela.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.API\\appsettings.json",
-              "RelativeToolTip": "DevFreela.API\\appsettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-01T22:18:51.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DevFreela.API.http",
-              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.API\\DevFreela.API.http",
-              "RelativeDocumentMoniker": "DevFreela.API\\DevFreela.API.http",
-              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.API\\DevFreela.API.http",
-              "RelativeToolTip": "DevFreela.API\\DevFreela.API.http",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-10-01T19:06:22.913Z",
+              "Title": "ProjectsController.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.API\\Controllers\\ProjectsController.cs",
+              "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\ProjectsController.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.API\\Controllers\\ProjectsController.cs",
+              "RelativeToolTip": "DevFreela.API\\Controllers\\ProjectsController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T00:12:49.599Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "DevFreela.API\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.API\\Controllers\\UserController.cs",
               "RelativeToolTip": "DevFreela.API\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAwwIMAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T08:06:01.455Z",
+              "WhenOpened": "2026-01-19T00:11:09.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InsertProjectHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Application\\Commands\\InsertProject\\InsertProjectHandler.cs",
+              "RelativeDocumentMoniker": "DevFreela.Application\\Commands\\InsertProject\\InsertProjectHandler.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Application\\Commands\\InsertProject\\InsertProjectHandler.cs",
+              "RelativeToolTip": "DevFreela.Application\\Commands\\InsertProject\\InsertProjectHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T21:49:13.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InsertProjectCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Application\\Commands\\InsertProject\\InsertProjectCommand.cs",
+              "RelativeDocumentMoniker": "DevFreela.Application\\Commands\\InsertProject\\InsertProjectCommand.cs",
+              "ToolTip": "C:\\Users\\Usu\u00E1rio\\Documents\\GitHub\\DevFreelaAPI\\DevFreela.Application\\Commands\\InsertProject\\InsertProjectCommand.cs",
+              "RelativeToolTip": "DevFreela.Application\\Commands\\InsertProject\\InsertProjectCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T21:49:07.916Z",
               "EditorCaption": ""
             }
           ]

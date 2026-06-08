@@ -82,7 +82,7 @@ namespace DevFreela.API.Controllers {
         public IActionResult Login(LoginInputModel model) {
             var hash = _authService.ComputeHash(model.Password);
 
-            var user = _context.Users.SingleOrDefault(u => u.Email == model.Email && u.Password == model.Password);
+            var user = _context.Users.FirstOrDefault(u => u.Email == model.Email && u.Password == hash);
 
             if (user == null) {
                 var error = ResultViewModel<LoginViewModel?>.Error("Erro de Login.");
